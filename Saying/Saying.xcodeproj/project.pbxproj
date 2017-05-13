@@ -13,6 +13,11 @@
 		800876F31EC6CFD9002A9F5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 800876F21EC6CFD9002A9F5D /* Assets.xcassets */; };
 		800876F61EC6CFD9002A9F5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800876F41EC6CFD9002A9F5D /* LaunchScreen.storyboard */; };
 		800877011EC6CFD9002A9F5D /* SayingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800877001EC6CFD9002A9F5D /* SayingTests.swift */; };
+		8008770D1EC6D202002A9F5D /* LikeFeed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8008770C1EC6D202002A9F5D /* LikeFeed.storyboard */; };
+		8008770F1EC6D279002A9F5D /* Feed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8008770E1EC6D279002A9F5D /* Feed.storyboard */; };
+		800877111EC6D2A8002A9F5D /* PersonalFeed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800877101EC6D2A8002A9F5D /* PersonalFeed.storyboard */; };
+		800877131EC6D2FB002A9F5D /* CreateFeed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800877121EC6D2FB002A9F5D /* CreateFeed.storyboard */; };
+		800877151EC6D313002A9F5D /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800877141EC6D313002A9F5D /* Setting.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		800876FC1EC6CFD9002A9F5D /* SayingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SayingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		800877001EC6CFD9002A9F5D /* SayingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayingTests.swift; sourceTree = "<group>"; };
 		800877021EC6CFD9002A9F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8008770C1EC6D202002A9F5D /* LikeFeed.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LikeFeed.storyboard; sourceTree = "<group>"; };
+		8008770E1EC6D279002A9F5D /* Feed.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Feed.storyboard; sourceTree = "<group>"; };
+		800877101EC6D2A8002A9F5D /* PersonalFeed.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PersonalFeed.storyboard; sourceTree = "<group>"; };
+		800877121EC6D2FB002A9F5D /* CreateFeed.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CreateFeed.storyboard; sourceTree = "<group>"; };
+		800877141EC6D313002A9F5D /* Setting.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +87,11 @@
 		800876EA1EC6CFD9002A9F5D /* Saying */ = {
 			isa = PBXGroup;
 			children = (
-				800876EB1EC6CFD9002A9F5D /* AppDelegate.swift */,
-				800876ED1EC6CFD9002A9F5D /* ViewController.swift */,
-				800876EF1EC6CFD9002A9F5D /* Main.storyboard */,
+				800877161EC6D330002A9F5D /* AppDelegate */,
+				800877171EC6D352002A9F5D /* Source */,
+				8008770B1EC6D16E002A9F5D /* UI */,
+				8008771E1EC6D3FE002A9F5D /* Model */,
 				800876F21EC6CFD9002A9F5D /* Assets.xcassets */,
-				800876F41EC6CFD9002A9F5D /* LaunchScreen.storyboard */,
 				800876F71EC6CFD9002A9F5D /* Info.plist */,
 			);
 			path = Saying;
@@ -94,6 +104,83 @@
 				800877021EC6CFD9002A9F5D /* Info.plist */,
 			);
 			path = SayingTests;
+			sourceTree = "<group>";
+		};
+		8008770B1EC6D16E002A9F5D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				800876EF1EC6CFD9002A9F5D /* Main.storyboard */,
+				800876F41EC6CFD9002A9F5D /* LaunchScreen.storyboard */,
+				8008770E1EC6D279002A9F5D /* Feed.storyboard */,
+				8008770C1EC6D202002A9F5D /* LikeFeed.storyboard */,
+				800877121EC6D2FB002A9F5D /* CreateFeed.storyboard */,
+				800877101EC6D2A8002A9F5D /* PersonalFeed.storyboard */,
+				800877141EC6D313002A9F5D /* Setting.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		800877161EC6D330002A9F5D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				800876EB1EC6CFD9002A9F5D /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		800877171EC6D352002A9F5D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8008771A1EC6D39F002A9F5D /* Feed */,
+				800877191EC6D391002A9F5D /* LikeFeed */,
+				8008771B1EC6D3A3002A9F5D /* PersonalFeed */,
+				8008771C1EC6D3AE002A9F5D /* CreateFeed */,
+				8008771D1EC6D3CA002A9F5D /* Setting */,
+				800876ED1EC6CFD9002A9F5D /* ViewController.swift */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		800877191EC6D391002A9F5D /* LikeFeed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = LikeFeed;
+			sourceTree = "<group>";
+		};
+		8008771A1EC6D39F002A9F5D /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Feed;
+			sourceTree = "<group>";
+		};
+		8008771B1EC6D3A3002A9F5D /* PersonalFeed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = PersonalFeed;
+			sourceTree = "<group>";
+		};
+		8008771C1EC6D3AE002A9F5D /* CreateFeed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CreateFeed;
+			sourceTree = "<group>";
+		};
+		8008771D1EC6D3CA002A9F5D /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		8008771E1EC6D3FE002A9F5D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,9 +266,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8008770F1EC6D279002A9F5D /* Feed.storyboard in Resources */,
 				800876F61EC6CFD9002A9F5D /* LaunchScreen.storyboard in Resources */,
+				800877111EC6D2A8002A9F5D /* PersonalFeed.storyboard in Resources */,
+				8008770D1EC6D202002A9F5D /* LikeFeed.storyboard in Resources */,
 				800876F31EC6CFD9002A9F5D /* Assets.xcassets in Resources */,
+				800877131EC6D2FB002A9F5D /* CreateFeed.storyboard in Resources */,
 				800876F11EC6CFD9002A9F5D /* Main.storyboard in Resources */,
+				800877151EC6D313002A9F5D /* Setting.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
