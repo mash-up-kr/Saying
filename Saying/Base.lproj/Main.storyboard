@@ -17,6 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="calibratedRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="QG2-Hq-pKi" kind="relationship" relationship="viewControllers" id="yVc-iO-bcL"/>
@@ -30,50 +31,50 @@
             </objects>
             <point key="canvasLocation" x="-238" y="-1"/>
         </scene>
-        <!--Storyboard Reference-->
+        <!--Feed-->
         <scene sceneID="Faf-W6-kPH">
             <objects>
-                <viewControllerPlaceholder id="QG2-Hq-pKi" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Feed" id="QG2-Hq-pKi" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="QZL-oA-aum"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xr6-NO-5Qn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="588" y="-289"/>
         </scene>
-        <!--Storyboard Reference-->
+        <!--LikeFeed-->
         <scene sceneID="e17-ja-9qL">
             <objects>
-                <viewControllerPlaceholder id="odj-Bx-uON" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="LikeFeed" id="odj-Bx-uON" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="PKR-wd-mb2"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Agy-4C-Ej8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="588" y="-147"/>
         </scene>
-        <!--Storyboard Reference-->
+        <!--CreateFeed-->
         <scene sceneID="UGl-t3-P12">
             <objects>
-                <viewControllerPlaceholder id="foc-qN-0zO" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="CreateFeed" id="foc-qN-0zO" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="tCR-Ax-mW9"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="55w-fP-ycM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="588" y="-2"/>
         </scene>
-        <!--Storyboard Reference-->
+        <!--PersonalFeed-->
         <scene sceneID="bZS-cQ-hOB">
             <objects>
-                <viewControllerPlaceholder id="p5t-3t-o4X" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="PersonalFeed" id="p5t-3t-o4X" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="rJz-Go-1sG"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ygC-fd-AhM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="588" y="134"/>
         </scene>
-        <!--Storyboard Reference-->
+        <!--Setting-->
         <scene sceneID="bnA-ZG-dhA">
             <objects>
-                <viewControllerPlaceholder id="znZ-ZH-y7C" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Setting" id="znZ-ZH-y7C" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="r5G-Pe-S65"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ovJ-ZA-PUq" userLabel="First Responder" sceneMemberID="firstResponder"/>
