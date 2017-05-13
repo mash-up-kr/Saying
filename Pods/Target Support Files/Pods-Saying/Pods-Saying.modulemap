@@ -1,0 +1,6 @@
+framework module Pods_Saying {
+  umbrella header "Pods-Saying-umbrella.h"
+
+  export *
+  module * { export * }
+}
