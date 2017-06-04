@@ -20,6 +20,7 @@
 		800877111EC6D2A8002A9F5D /* PersonalFeed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800877101EC6D2A8002A9F5D /* PersonalFeed.storyboard */; };
 		800877131EC6D2FB002A9F5D /* CreateFeed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800877121EC6D2FB002A9F5D /* CreateFeed.storyboard */; };
 		800877151EC6D313002A9F5D /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800877141EC6D313002A9F5D /* Setting.storyboard */; };
+		8012567C1EE3E6AB0066C202 /* KakaoOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8012567B1EE3E6AB0066C202 /* KakaoOpenSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		800877101EC6D2A8002A9F5D /* PersonalFeed.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PersonalFeed.storyboard; sourceTree = "<group>"; };
 		800877121EC6D2FB002A9F5D /* CreateFeed.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CreateFeed.storyboard; sourceTree = "<group>"; };
 		800877141EC6D313002A9F5D /* Setting.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		8012567A1EE3E6000066C202 /* KakaoOpenSDK-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KakaoOpenSDK-Bridging-Header.h"; sourceTree = "<group>"; };
+		8012567B1EE3E6AB0066C202 /* KakaoOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoOpenSDK.framework; sourceTree = "<group>"; };
 		A80926563F6081A823E6B84F /* Pods-SayingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SayingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SayingTests/Pods-SayingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AF6CA62ACDE71DDC32951840 /* Pods-SayingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SayingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SayingTests/Pods-SayingTests.release.xcconfig"; sourceTree = "<group>"; };
 		F79F747F8458743934EC1FCC /* Pods_Saying.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Saying.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,6 +65,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C1BC732C200A7ECF3959176 /* Pods_Saying.framework in Frameworks */,
+				8012567C1EE3E6AB0066C202 /* KakaoOpenSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +96,7 @@
 			children = (
 				F79F747F8458743934EC1FCC /* Pods_Saying.framework */,
 				3049AF21AEF4C809245DCEB1 /* Pods_SayingTests.framework */,
+				8012567B1EE3E6AB0066C202 /* KakaoOpenSDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -99,6 +104,7 @@
 		800876DF1EC6CFD9002A9F5D = {
 			isa = PBXGroup;
 			children = (
+				8012567A1EE3E6000066C202 /* KakaoOpenSDK-Bridging-Header.h */,
 				800876EA1EC6CFD9002A9F5D /* Saying */,
 				800876FF1EC6CFD9002A9F5D /* SayingTests */,
 				800876E91EC6CFD9002A9F5D /* Products */,
@@ -337,7 +343,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		9146F6751B5EA01566EABCC6 /* [CP] Copy Pods Resources */ = {
@@ -412,7 +418,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -565,10 +571,15 @@
 			baseConfigurationReference = 34A290D9333B42D62E7213D2 /* Pods-Saying.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Saying/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mashup.Saying;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/KakaoOpenSDK-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -578,10 +589,15 @@
 			baseConfigurationReference = 6CBABDCB9ABAF8B26559C182 /* Pods-Saying.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Saying/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mashup.Saying;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/KakaoOpenSDK-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -592,6 +608,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SayingTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mashup.SayingTests;
@@ -607,6 +627,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SayingTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mashup.SayingTests;
@@ -635,6 +659,7 @@
 				800877071EC6CFD9002A9F5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		800877081EC6CFD9002A9F5D /* Build configuration list for PBXNativeTarget "SayingTests" */ = {
 			isa = XCConfigurationList;
@@ -643,6 +668,7 @@
 				8008770A1EC6CFD9002A9F5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

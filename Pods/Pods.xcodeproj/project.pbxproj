@@ -21,20 +21,20 @@
 		307198FC889BC716ABA15AADFE10855B /* Pods-Saying-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Saying-frameworks.sh"; sourceTree = "<group>"; };
 		36442A753A337B82CE5782E2940C91D3 /* Pods-Saying-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Saying-umbrella.h"; sourceTree = "<group>"; };
 		3789688C29B631F63BE2FC6C3EA3D377 /* Pods-Saying-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Saying-acknowledgements.plist"; sourceTree = "<group>"; };
-		41C30809778D6106D4B380A7BDC495ED /* Pods-Saying.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Saying.modulemap"; sourceTree = "<group>"; };
+		41C30809778D6106D4B380A7BDC495ED /* Pods-Saying.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Saying.modulemap"; sourceTree = "<group>"; };
 		4B4728982C9DBC8DE3138E7EC9A24D84 /* Pods-SayingTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SayingTests-umbrella.h"; sourceTree = "<group>"; };
 		5E975D28E8763241D6DA15F5A413854A /* Pods-SayingTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SayingTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		75070AF1DEE2B0F6E791B7241F2F455C /* Pods-Saying-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Saying-resources.sh"; sourceTree = "<group>"; };
 		777E69EE58E3D093DC84395C74E51B8F /* Pods-Saying.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Saying.debug.xcconfig"; sourceTree = "<group>"; };
 		77FE61C14358E15A6F55B93AF2AB4933 /* Pods-SayingTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SayingTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7C35A89A1AE97BB63B22497F350CCA12 /* Pods-Saying-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Saying-dummy.m"; sourceTree = "<group>"; };
-		7DEF7B92AFA61936C83B87F270E2D1CF /* Pods-SayingTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SayingTests.modulemap"; sourceTree = "<group>"; };
+		7DEF7B92AFA61936C83B87F270E2D1CF /* Pods-SayingTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SayingTests.modulemap"; sourceTree = "<group>"; };
 		87A97FF7308FFE81F56D4E65985ACF31 /* Pods-SayingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SayingTests.release.xcconfig"; sourceTree = "<group>"; };
 		89194046237160F72161A0473960F41D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8C3285944931390375F127E3E3F03005 /* Pods_Saying.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Saying.framework; path = "Pods-Saying.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8C3285944931390375F127E3E3F03005 /* Pods_Saying.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Saying.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9B972BE4FB5297A4A0A60FCDDC884E12 /* Pods-SayingTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SayingTests-frameworks.sh"; sourceTree = "<group>"; };
-		C2418AF000E6C47D9EFDFABA0BE8E88C /* Pods_SayingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SayingTests.framework; path = "Pods-SayingTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2418AF000E6C47D9EFDFABA0BE8E88C /* Pods_SayingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SayingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D93924FE816F7FDB5EB23635B233F57D /* Pods-SayingTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SayingTests-resources.sh"; sourceTree = "<group>"; };
 		F300097858901D4D229ED1C7C10E0A66 /* Pods-Saying.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Saying.release.xcconfig"; sourceTree = "<group>"; };
@@ -334,6 +334,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-Saying/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -448,6 +452,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-Saying/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
