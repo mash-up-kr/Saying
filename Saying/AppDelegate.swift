@@ -19,13 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         NotificationCenter.default.addObserver(self, selector: #selector(AppDelegate.kakaoSessionDidChangeWithNotification), name: NSNotification.Name.KOSessionDidChange, object: nil)
         
-        
-        
         return true
-    }
-    
-    func kakaoSessionDidChangeWithNotification() {
-//        reloadRootViewController()
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -49,7 +43,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
+    
+    func kakaoSessionDidChangeWithNotification() {
+        reloadRootViewController()
+    }
+    
+    func reloadRootViewController() {
+        print("KOSession.shared().isOpen() = \(KOSession.shared().isOpen())")
+    }
 
 }
 
