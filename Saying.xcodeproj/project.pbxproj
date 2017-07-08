@@ -9,8 +9,12 @@
 /* Begin PBXBuildFile section */
 		2F622385289AC1BDE34706E2 /* Pods_SayingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3049AF21AEF4C809245DCEB1 /* Pods_SayingTests.framework */; };
 		4C1BC732C200A7ECF3959176 /* Pods_Saying.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F79F747F8458743934EC1FCC /* Pods_Saying.framework */; };
+		80072FF11F05097A003C556B /* Account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80072FF01F05097A003C556B /* Account.storyboard */; };
+		800775E31F1098BE00396A48 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800775E21F1098BE00396A48 /* TextField.swift */; };
+		800775E61F10A47400396A48 /* AccountNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800775E51F10A47400396A48 /* AccountNavigationController.swift */; };
+		800775EB1F10AEF200396A48 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800775EA1F10AEF200396A48 /* SignInViewController.swift */; };
 		800876EC1EC6CFD9002A9F5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800876EB1EC6CFD9002A9F5D /* AppDelegate.swift */; };
-		800876EE1EC6CFD9002A9F5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800876ED1EC6CFD9002A9F5D /* ViewController.swift */; };
+		800876EE1EC6CFD9002A9F5D /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800876ED1EC6CFD9002A9F5D /* AccountViewController.swift */; };
 		800876F11EC6CFD9002A9F5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800876EF1EC6CFD9002A9F5D /* Main.storyboard */; };
 		800876F31EC6CFD9002A9F5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 800876F21EC6CFD9002A9F5D /* Assets.xcassets */; };
 		800876F61EC6CFD9002A9F5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800876F41EC6CFD9002A9F5D /* LaunchScreen.storyboard */; };
@@ -37,9 +41,13 @@
 		3049AF21AEF4C809245DCEB1 /* Pods_SayingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SayingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34A290D9333B42D62E7213D2 /* Pods-Saying.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Saying.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Saying/Pods-Saying.debug.xcconfig"; sourceTree = "<group>"; };
 		6CBABDCB9ABAF8B26559C182 /* Pods-Saying.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Saying.release.xcconfig"; path = "Pods/Target Support Files/Pods-Saying/Pods-Saying.release.xcconfig"; sourceTree = "<group>"; };
+		80072FF01F05097A003C556B /* Account.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Account.storyboard; sourceTree = "<group>"; };
+		800775E21F1098BE00396A48 /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		800775E51F10A47400396A48 /* AccountNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountNavigationController.swift; sourceTree = "<group>"; };
+		800775EA1F10AEF200396A48 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		800876E81EC6CFD9002A9F5D /* Saying.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Saying.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		800876EB1EC6CFD9002A9F5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		800876ED1EC6CFD9002A9F5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		800876ED1EC6CFD9002A9F5D /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		800876F01EC6CFD9002A9F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		800876F21EC6CFD9002A9F5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		800876F51EC6CFD9002A9F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,6 +109,48 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		800775E01F10989700396A48 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				800775E21F1098BE00396A48 /* TextField.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		800775E41F10A45500396A48 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				800775E81F10AEBB00396A48 /* Navigation */,
+				800775E71F10AEB300396A48 /* Base */,
+				800775E91F10AED100396A48 /* SignIn */,
+			);
+			name = Account;
+			sourceTree = "<group>";
+		};
+		800775E71F10AEB300396A48 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				800876ED1EC6CFD9002A9F5D /* AccountViewController.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		800775E81F10AEBB00396A48 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				800775E51F10A47400396A48 /* AccountNavigationController.swift */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+		800775E91F10AED100396A48 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				800775EA1F10AEF200396A48 /* SignInViewController.swift */,
+			);
+			name = SignIn;
+			sourceTree = "<group>";
+		};
 		800876DF1EC6CFD9002A9F5D = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +179,7 @@
 				800877171EC6D352002A9F5D /* Source */,
 				8008770B1EC6D16E002A9F5D /* UI */,
 				8008771E1EC6D3FE002A9F5D /* Model */,
+				800775E01F10989700396A48 /* Util */,
 				800876F21EC6CFD9002A9F5D /* Assets.xcassets */,
 				800876F71EC6CFD9002A9F5D /* Info.plist */,
 			);
@@ -147,6 +198,7 @@
 		8008770B1EC6D16E002A9F5D /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				80F3DBFE1F0BC237000AB4F7 /* Account */,
 				800876EF1EC6CFD9002A9F5D /* Main.storyboard */,
 				800876F41EC6CFD9002A9F5D /* LaunchScreen.storyboard */,
 				8008770E1EC6D279002A9F5D /* Feed.storyboard */,
@@ -169,12 +221,12 @@
 		800877171EC6D352002A9F5D /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				800775E41F10A45500396A48 /* Account */,
 				8008771A1EC6D39F002A9F5D /* Feed */,
 				800877191EC6D391002A9F5D /* LikeFeed */,
 				8008771B1EC6D3A3002A9F5D /* PersonalFeed */,
 				8008771C1EC6D3AE002A9F5D /* CreateFeed */,
 				8008771D1EC6D3CA002A9F5D /* Setting */,
-				800876ED1EC6CFD9002A9F5D /* ViewController.swift */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -219,6 +271,14 @@
 			children = (
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		80F3DBFE1F0BC237000AB4F7 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				80072FF01F05097A003C556B /* Account.storyboard */,
+			);
+			name = Account;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,6 +377,7 @@
 				800876F31EC6CFD9002A9F5D /* Assets.xcassets in Resources */,
 				800877131EC6D2FB002A9F5D /* CreateFeed.storyboard in Resources */,
 				800876F11EC6CFD9002A9F5D /* Main.storyboard in Resources */,
+				80072FF11F05097A003C556B /* Account.storyboard in Resources */,
 				800877151EC6D313002A9F5D /* Setting.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,8 +489,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				800876EE1EC6CFD9002A9F5D /* ViewController.swift in Sources */,
+				800775E31F1098BE00396A48 /* TextField.swift in Sources */,
+				800876EE1EC6CFD9002A9F5D /* AccountViewController.swift in Sources */,
 				800876EC1EC6CFD9002A9F5D /* AppDelegate.swift in Sources */,
+				800775EB1F10AEF200396A48 /* SignInViewController.swift in Sources */,
+				800775E61F10A47400396A48 /* AccountNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,6 +640,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Saying/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mashup.Saying;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -594,6 +659,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Saying/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mashup.Saying;
 				PRODUCT_NAME = "$(TARGET_NAME)";

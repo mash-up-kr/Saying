@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  AccountViewController.swift
 //  Saying
 //
 //  Created by snow on 2017. 5. 13..
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class AccountViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +20,4 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
 }
-
