@@ -20,6 +20,10 @@
 		800877111EC6D2A8002A9F5D /* PersonalFeed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800877101EC6D2A8002A9F5D /* PersonalFeed.storyboard */; };
 		800877131EC6D2FB002A9F5D /* CreateFeed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800877121EC6D2FB002A9F5D /* CreateFeed.storyboard */; };
 		800877151EC6D313002A9F5D /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800877141EC6D313002A9F5D /* Setting.storyboard */; };
+		8AF222AC1F13B782009B03D8 /* CreateTagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF222AB1F13B782009B03D8 /* CreateTagViewController.swift */; };
+		8AF222AE1F13BF3B009B03D8 /* CreateContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF222AD1F13BF3B009B03D8 /* CreateContentViewController.swift */; };
+		8AF222B01F13C047009B03D8 /* TagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF222AF1F13C047009B03D8 /* TagCell.swift */; };
+		8AF222B21F13C166009B03D8 /* CreateBackgroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF222B11F13C166009B03D8 /* CreateBackgroundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		800877101EC6D2A8002A9F5D /* PersonalFeed.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PersonalFeed.storyboard; sourceTree = "<group>"; };
 		800877121EC6D2FB002A9F5D /* CreateFeed.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CreateFeed.storyboard; sourceTree = "<group>"; };
 		800877141EC6D313002A9F5D /* Setting.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		8AF222AB1F13B782009B03D8 /* CreateTagViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTagViewController.swift; sourceTree = "<group>"; };
+		8AF222AD1F13BF3B009B03D8 /* CreateContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateContentViewController.swift; sourceTree = "<group>"; };
+		8AF222AF1F13C047009B03D8 /* TagCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagCell.swift; sourceTree = "<group>"; };
+		8AF222B11F13C166009B03D8 /* CreateBackgroundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateBackgroundViewController.swift; sourceTree = "<group>"; };
 		A80926563F6081A823E6B84F /* Pods-SayingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SayingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SayingTests/Pods-SayingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AF6CA62ACDE71DDC32951840 /* Pods-SayingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SayingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SayingTests/Pods-SayingTests.release.xcconfig"; sourceTree = "<group>"; };
 		F79F747F8458743934EC1FCC /* Pods_Saying.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Saying.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -197,6 +205,10 @@
 		8008771C1EC6D3AE002A9F5D /* CreateFeed */ = {
 			isa = PBXGroup;
 			children = (
+				8AF222AB1F13B782009B03D8 /* CreateTagViewController.swift */,
+				8AF222AF1F13C047009B03D8 /* TagCell.swift */,
+				8AF222AD1F13BF3B009B03D8 /* CreateContentViewController.swift */,
+				8AF222B11F13C166009B03D8 /* CreateBackgroundViewController.swift */,
 			);
 			name = CreateFeed;
 			sourceTree = "<group>";
@@ -271,6 +283,7 @@
 				TargetAttributes = {
 					800876E71EC6CFD9002A9F5D = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 78F59JC234;
 						ProvisioningStyle = Automatic;
 					};
 					800876FB1EC6CFD9002A9F5D = {
@@ -337,7 +350,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		9146F6751B5EA01566EABCC6 /* [CP] Copy Pods Resources */ = {
@@ -412,7 +425,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -424,6 +437,10 @@
 			files = (
 				800876EE1EC6CFD9002A9F5D /* ViewController.swift in Sources */,
 				800876EC1EC6CFD9002A9F5D /* AppDelegate.swift in Sources */,
+				8AF222B21F13C166009B03D8 /* CreateBackgroundViewController.swift in Sources */,
+				8AF222B01F13C047009B03D8 /* TagCell.swift in Sources */,
+				8AF222AE1F13BF3B009B03D8 /* CreateContentViewController.swift in Sources */,
+				8AF222AC1F13B782009B03D8 /* CreateTagViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,6 +582,7 @@
 			baseConfigurationReference = 34A290D9333B42D62E7213D2 /* Pods-Saying.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 78F59JC234;
 				INFOPLIST_FILE = Saying/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mashup.Saying;
@@ -578,6 +596,7 @@
 			baseConfigurationReference = 6CBABDCB9ABAF8B26559C182 /* Pods-Saying.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 78F59JC234;
 				INFOPLIST_FILE = Saying/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mashup.Saying;
@@ -635,6 +654,7 @@
 				800877071EC6CFD9002A9F5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		800877081EC6CFD9002A9F5D /* Build configuration list for PBXNativeTarget "SayingTests" */ = {
 			isa = XCConfigurationList;
@@ -643,6 +663,7 @@
 				8008770A1EC6CFD9002A9F5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
