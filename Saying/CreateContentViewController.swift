@@ -24,6 +24,17 @@ class CreateContentViewController: UIViewController {
     
     self.toTitle.text = "#우울 외 1개 그룹"
     self.textView.delegate = self
+    
+    self.rightNaviButton()
+  }
+  
+  func rightNaviButton() {
+    let nextButton = UIBarButtonItem(title: "다음", style: .plain, target: self, action: #selector(nextButtonDidTap))
+    self.navigationItem.rightBarButtonItem = nextButton
+  }
+  
+  func nextButtonDidTap() {
+   performSegue(withIdentifier: "contentToBackground", sender: self)
   }
 }
 

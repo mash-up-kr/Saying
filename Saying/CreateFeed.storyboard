@@ -180,6 +180,7 @@
                     <connections>
                         <outlet property="textView" destination="zmI-XQ-E71" id="I47-Qs-Q01"/>
                         <outlet property="toTitle" destination="LYw-5Q-UKm" id="v3a-jb-jY8"/>
+                        <segue destination="KHb-DZ-dT9" kind="show" identifier="contentToBackground" id="odS-EU-Hjt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bfv-rN-tTi" userLabel="First Responder" sceneMemberID="firstResponder"/>
